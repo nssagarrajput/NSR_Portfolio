@@ -220,6 +220,7 @@ header{
       aspect-ratio: 20/8;
 
       border: 1px solid var(--color-white);
+      border-radius: 1rem;
       transition: var(--transition);
 }
 
@@ -242,6 +243,23 @@ header{
       animation: heartbeat 1.5s 0s  infinite alternate;
 }
 
+
+
+
+
+
+
+/* ------------------------------------- */
+/* Greetings */
+/* ------------------------------------- */
+
+.greetings div{
+      /* border: 1px solid red; */
+}
+.greetings div img{
+      width: 800px;
+      margin: auto;
+}
 
 
 
@@ -280,6 +298,7 @@ header{
       font-size: 1.2rem;
       width: 15rem;
       aspect-ratio: 20/6;
+      border-radius: 1rem;
 
       background: none;
       border: 1px solid var(--color-black);
@@ -477,6 +496,7 @@ header{
 
 .contact-form input[type='submit']{
       border: 2px solid rgba(52,180,0,1);
+      border-radius: 1rem;
       color: rgba(52,180,0,1);
       background: transparent;
       margin: 1.5rem auto;
