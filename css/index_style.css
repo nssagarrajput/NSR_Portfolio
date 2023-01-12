@@ -253,6 +253,9 @@ header{
 /* Greetings */
 /* ------------------------------------- */
 
+.greetings div{
+      /* border: 1px solid red; */
+}
 .greetings div img{
       width: 800px;
       margin: auto;
@@ -269,7 +272,7 @@ header{
 
 .abouts h2{
       background: linear-gradient(81deg, rgba(250,8,116,1) 31%, rgba(255,196,70,1) 100%);      
-      background-clip: text;
+      -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
 }
 
@@ -323,7 +326,7 @@ header{
 
 .skills h2{
       background: linear-gradient(81deg, rgba(85,8,250,1) 0%, rgba(0,235,216,1) 100%);
-      background-clip: text;
+      -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
 }
 
@@ -382,7 +385,7 @@ header{
 .projects h2{
       background: rgb(255,141,0);
       background: linear-gradient(57deg, rgba(255,141,0,1) 42%, rgba(247,255,143,1) 100%);
-      background-clip: text;
+      -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
 }
 
@@ -417,7 +420,7 @@ header{
 
 .pc h3{
       background: linear-gradient(119deg, rgba(255,21,0,1) 0%, rgba(255,113,4,1) 100%);
-      background-clip: text;
+      -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       
       font-size: 1.5rem;
@@ -455,7 +458,7 @@ header{
 
 .contacts h2{
       background: linear-gradient(141deg, rgba(52,180,0,1) 16%, rgba(27,178,218,1) 100%);
-      background-clip: text;
+      -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       margin-bottom: 3rem;
 }
