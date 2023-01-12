@@ -158,7 +158,7 @@ nav{
 
 header{
       height: 100vh;
-      background: url(/images/BGs/header_bg.jpg);
+      background: url(/images/BGs/22489089_15199-min.jpg);
       background-position: center;
       background-size: cover;
 }
@@ -171,14 +171,9 @@ header{
 }
 
 
-/* .half-box{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-} */
 
 .left *{
-      color: var(--color-white);
+      color: var(--color-black);
       margin-bottom: 2rem;
 }
 
@@ -190,7 +185,7 @@ header{
       margin-top: 4rem;
 }
 .left .lname{
-      color: var(--color-white);
+      color: var(--color-black);
       font-weight: normal;
 }
 
@@ -241,24 +236,6 @@ header{
 }
 .right .profile-img img{
       animation: heartbeat 1.5s 0s  infinite alternate;
-}
-
-
-
-
-
-
-
-/* ------------------------------------- */
-/* Greetings */
-/* ------------------------------------- */
-
-.greetings div{
-      /* border: 1px solid red; */
-}
-.greetings div img{
-      width: 800px;
-      margin: auto;
 }
 
 
